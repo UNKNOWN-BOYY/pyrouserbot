@@ -1,0 +1,102 @@
+version = 1
+requires-python = ">=3.11"
+
+[[package]]
+name = "aiosqlite"
+version = "0.21.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/13/7d/8bca2bf9a247c2c5dfeec1d7a5f40db6518f88d314b8bca9da29670d2671/aiosqlite-0.21.0.tar.gz", hash = "sha256:131bb8056daa3bc875608c631c678cda73922a2d4ba8aec373b19f18c17e7aa3", size = 13454 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f5/10/6c25ed6de94c49f88a91fa5018cb4c0f3625f31d5be9f771ebe5cc7cd506/aiosqlite-0.21.0-py3-none-any.whl", hash = "sha256:2549cf4057f95f53dcba16f2b64e8e2791d7e1adedb13197dd8ed77bb226d7d0", size = 15792 },
+]
+
+[[package]]
+name = "psutil"
+version = "7.0.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/2a/80/336820c1ad9286a4ded7e845b2eccfcb27851ab8ac6abece774a6ff4d3de/psutil-7.0.0.tar.gz", hash = "sha256:7be9c3eba38beccb6495ea33afd982a44074b78f28c434a1f51cc07fd315c456", size = 497003 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ed/e6/2d26234410f8b8abdbf891c9da62bee396583f713fb9f3325a4760875d22/psutil-7.0.0-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:101d71dc322e3cffd7cea0650b09b3d08b8e7c4109dd6809fe452dfd00e58b25", size = 238051 },
+    { url = "https://files.pythonhosted.org/packages/04/8b/30f930733afe425e3cbfc0e1468a30a18942350c1a8816acfade80c005c4/psutil-7.0.0-cp36-abi3-macosx_11_0_arm64.whl", hash = "sha256:39db632f6bb862eeccf56660871433e111b6ea58f2caea825571951d4b6aa3da", size = 239535 },
+    { url = "https://files.pythonhosted.org/packages/2a/ed/d362e84620dd22876b55389248e522338ed1bf134a5edd3b8231d7207f6d/psutil-7.0.0-cp36-abi3-manylinux_2_12_i686.manylinux2010_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:1fcee592b4c6f146991ca55919ea3d1f8926497a713ed7faaf8225e174581e91", size = 275004 },
+    { url = "https://files.pythonhosted.org/packages/bf/b9/b0eb3f3cbcb734d930fdf839431606844a825b23eaf9a6ab371edac8162c/psutil-7.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4b1388a4f6875d7e2aff5c4ca1cc16c545ed41dd8bb596cefea80111db353a34", size = 277986 },
+    { url = "https://files.pythonhosted.org/packages/eb/a2/709e0fe2f093556c17fbafda93ac032257242cabcc7ff3369e2cb76a97aa/psutil-7.0.0-cp36-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:a5f098451abc2828f7dc6b58d44b532b22f2088f4999a937557b603ce72b1993", size = 279544 },
+    { url = "https://files.pythonhosted.org/packages/50/e6/eecf58810b9d12e6427369784efe814a1eec0f492084ce8eb8f4d89d6d61/psutil-7.0.0-cp37-abi3-win32.whl", hash = "sha256:ba3fcef7523064a6c9da440fc4d6bd07da93ac726b5733c29027d7dc95b39d99", size = 241053 },
+    { url = "https://files.pythonhosted.org/packages/50/1b/6921afe68c74868b4c9fa424dad3be35b095e16687989ebbb50ce4fceb7c/psutil-7.0.0-cp37-abi3-win_amd64.whl", hash = "sha256:4cf3d4eb1aa9b348dec30105c55cd9b7d4629285735a102beb4441e38db90553", size = 244885 },
+]
+
+[[package]]
+name = "pyaes"
+version = "1.6.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/44/66/2c17bae31c906613795711fc78045c285048168919ace2220daa372c7d72/pyaes-1.6.1.tar.gz", hash = "sha256:02c1b1405c38d3c370b085fb952dd8bea3fadcee6411ad99f312cc129c536d8f", size = 28536 }
+
+[[package]]
+name = "pyrogram"
+version = "2.0.106"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pyaes" },
+    { name = "pysocks" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/c8/8e/5d09eca17271320bb9a95e50b7e053770aee85b3fd338e8267e7b6b280ae/Pyrogram-2.0.106.tar.gz", hash = "sha256:30202995758fcb6e0f91224704ab7fedefea454297724bd70a6a71a23748c16f", size = 345997 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/37/88/502ec24914d208e06baa6f27ff812f46815bb4f302018ad848ebf518abdf/Pyrogram-2.0.106-py3-none-any.whl", hash = "sha256:32b62b3d93030b1080cbe45b88c0e8790cf4e2179cf3321ede810d48edf97bc7", size = 3573685 },
+]
+
+[[package]]
+name = "pysocks"
+version = "1.7.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/bd/11/293dd436aea955d45fc4e8a35b6ae7270f5b8e00b53cf6c024c83b657a11/PySocks-1.7.1.tar.gz", hash = "sha256:3f8804571ebe159c380ac6de37643bb4685970655d3bba243530d6558b799aa0", size = 284429 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/8d/59/b4572118e098ac8e46e399a1dd0f2d85403ce8bbaad9ec79373ed6badaf9/PySocks-1.7.1-py3-none-any.whl", hash = "sha256:2725bd0a9925919b9b51739eea5f9e2bae91e83288108a9ad338b2e3a4435ee5", size = 16725 },
+]
+
+[[package]]
+name = "repl-nix-workspace"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "aiosqlite" },
+    { name = "psutil" },
+    { name = "pyrogram" },
+    { name = "tgcrypto" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "aiosqlite", specifier = ">=0.21.0" },
+    { name = "psutil", specifier = ">=7.0.0" },
+    { name = "pyrogram", specifier = ">=2.0.106" },
+    { name = "tgcrypto", specifier = ">=1.2.5" },
+]
+
+[[package]]
+name = "tgcrypto"
+version = "1.2.5"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/33/59/7cf5ced989e3139a791d5452d58cb8994de589576b80f9267ba76d794f6c/TgCrypto-1.2.5.tar.gz", hash = "sha256:9bc2cac6fb9a12ef5b08f3dd500174fe374d89b660cce981f57e3138559cb682", size = 37280 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/48/e6/07dc413e57f3677e0b887975b174d9cbc8170e92651dd35a784da9571d5f/TgCrypto-1.2.5-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:59597cdb1c87eb1184088563d20b42a8f2e431e9334fed64926079044ad2a4af", size = 58988 },
+    { url = "https://files.pythonhosted.org/packages/c1/fe/a418223ff6079184f50f5ad8c2dac37ec40adbb42b886c3ee44fdba2a540/TgCrypto-1.2.5-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:1283337ae75b02406dd700377b8b783e70033b548492517df6e6c4156b0ed69c", size = 43347 },
+    { url = "https://files.pythonhosted.org/packages/39/0e/e861a9987c6d9d3ae04d156732311e018558f862490c466c369d73094807/TgCrypto-1.2.5-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:1735437df0023a40e5fdd95e6b09ce806ec8f2cd2f8879023818840dfae60cab", size = 43123 },
+    { url = "https://files.pythonhosted.org/packages/0d/ce/d60e249ac4d31d591f4c8ca76e7bd537f4c54f1947b400a14ac3a1678b09/TgCrypto-1.2.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:cfa17a20206532c6d2442c9d7a7f6434120bd75896ad9a3e9b9277477afa084f", size = 60713 },
+    { url = "https://files.pythonhosted.org/packages/27/55/50f81b1a557bd8f9b73f7fcda2381f8826665858750968394ceec0b01282/TgCrypto-1.2.5-cp311-cp311-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:48da3674474839e5619e7430ff1f98aed9f55369f3cfaef7f65511852869572e", size = 60418 },
+    { url = "https://files.pythonhosted.org/packages/f3/55/7f5f5a024b71ef81b07c3fe15e79d03b634eb349b04bc79a62c8c3ed3376/TgCrypto-1.2.5-cp311-cp311-musllinux_1_1_i686.whl", hash = "sha256:b49e982e5b156be821a5235bd9102c00dc506a58607e2c8bd50ac872724a951f", size = 64397 },
+    { url = "https://files.pythonhosted.org/packages/76/3e/8f059edce82de8ebbc1e513076c0f65a86fac95887fae21ae087440ef23a/TgCrypto-1.2.5-cp311-cp311-musllinux_1_1_x86_64.whl", hash = "sha256:9d9f13586065a6d86d05c16409054033a84be208acee29b49f6f194e27b08642", size = 64436 },
+    { url = "https://files.pythonhosted.org/packages/eb/87/fe894eb7c4cce4b6f710223c24e0ca22f4107fe46f3f56091ceabd482de7/TgCrypto-1.2.5-cp311-cp311-win32.whl", hash = "sha256:10dd3870aecb1a783c6eafd3b164b2149dbc93a9ee13feb7e6f5c58f87c24cd0", size = 44723 },
+    { url = "https://files.pythonhosted.org/packages/c1/fc/b918235b19b70a45f4a596c773fad2c379d941d2ac5005293e2ee18bdc63/TgCrypto-1.2.5-cp311-cp311-win_amd64.whl", hash = "sha256:a1beec47d6af8b509af7cf266e30f7703208076076594714005b42d2c25225b3", size = 45073 },
+]
+
+[[package]]
+name = "typing-extensions"
+version = "4.14.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/d1/bc/51647cd02527e87d05cb083ccc402f93e441606ff1f01739a62c8ad09ba5/typing_extensions-4.14.0.tar.gz", hash = "sha256:8676b788e32f02ab42d9e7c61324048ae4c6d844a399eebace3d4979d75ceef4", size = 107423 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/69/e0/552843e0d356fbb5256d21449fa957fa4eff3bbc135a74a691ee70c7c5da/typing_extensions-4.14.0-py3-none-any.whl", hash = "sha256:a1514509136dd0b477638fc68d6a91497af5076466ad0fa6c338e44e359944af", size = 43839 },
+]

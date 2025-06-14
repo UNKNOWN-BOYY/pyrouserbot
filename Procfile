@@ -1,4 +1,1 @@
-
-
 worker: python main.py
-
